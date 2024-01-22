@@ -94,7 +94,7 @@ def main():
             # Streamlit App
             st.subheader('Disease detection')
 
-            uploaded_file = st.file_uploader("Choose an image...", type="jpg")
+            uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'png', 'jpeg'])
 
             if uploaded_file is not None:
                 st.image(uploaded_file, caption="Uploaded Image.", use_column_width=True)
