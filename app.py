@@ -119,10 +119,10 @@ def main():
 
         # Developer 1
         # Load an image from file or any other source
-        image1 = Image.open("static\shivaji.png")
-        image2 = Image.open("static\shivaji.png")
-        image3 = Image.open("static\shivaji.png")
-        image4 = Image.open("static\shivaji.png")
+        image1 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
+        image2 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
+        image3 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
+        image4 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
 
 # Display the image in the Streamlit app
 
