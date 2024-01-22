@@ -3,7 +3,7 @@ import cv2 # for computer vision tasks
 from PIL import Image, ImageEnhance 
 # PIL - Python Image Library, imported Image for image editing 
 # imported imageEnhance for morphological processing operations
-# like contrast,brightness,blurriness etc
+# like contrast,brightness,blurriness et
 import  numpy as np # to deal with arrays
 # image contains pixel values 0-255 stores in arrays
 import os # for os related operations
@@ -119,10 +119,7 @@ def main():
 
         # Developer 1
         # Load an image from file or any other source
-        image1 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
-        image2 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
-        image3 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
-        image4 = Image.open("https://i.postimg.cc/vB8SRN2s/shivaji.png")
+
 
 # Display the image in the Streamlit app
 
@@ -130,7 +127,7 @@ def main():
 
         st.subheader('[Shivaji Annem](https://annemshivaji.github.io/literally-me/ )')
         st.text(" ")
-        st.image(image1, width=150, use_column_width=False)
+       
         st.markdown('Tech Enthusiast. Currently pursuing M-tech Integrated Computer Science and Engineering at Vellore Institute of Technology. I consider my Past self as my competitor and I am a strong believer in the compound effect.')
         st.markdown('"My day should feel like music 🎶"')
 
